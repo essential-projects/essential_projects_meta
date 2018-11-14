@@ -1,0 +1,16 @@
+{
+  "name": "@essential-projects/essential_projects_meta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "meta exec \"npm run build\" --exclude process_engine_meta,tslint-config,identity_server && cd _integration_tests && npm run build && cd ..",
+    "postinstall": "minstall --no-hoist aurelia-* --trust-local-modules ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "meta-npm": "0.0.18",
+    "minstall": "^3.3.0"
+  }
+}
