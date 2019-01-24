@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "meta exec \"npm run build\" --exclude essential_projects__meta,iam_contracts",
+    "build": "meta exec \"npm run build\" --exclude essential_projects__meta,iam_contracts,tslint-config",
     "postinstall": "minstall --no-hoist aurelia-* --trust-local-modules ."
   },
   "author": "",

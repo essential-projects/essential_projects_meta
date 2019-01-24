@@ -15,6 +15,6 @@ if [[ "$?" -ne "0" ]]; then
 fi
 
 # build all packages
-meta exec "npm run build" --exclude essential_projects_meta,iam_contracts
+meta exec "npm run build" --exclude essential_projects_meta,iam_contracts,tslint-config
 
 echo "done"
