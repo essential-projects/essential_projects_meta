@@ -29,6 +29,8 @@ process_engine
 process_engine_core
 process_engine_contracts
 sequelize_connection_manager
+scheduler_contracts
+scheduler_extension
 services
 services_contracts
 skeleton

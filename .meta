@@ -6,6 +6,7 @@
     "http_contracts": "git@github.com:essential-projects/http_contracts.git",
     "iam_contracts": "git@github.com:essential-projects/iam_contracts.git",
     "event_aggregator_contracts": "git@github.com:essential-projects/event_aggregator_contracts.git",
+    "scheduler_contracts": "git@github.com:essential-projects/scheduler_contracts",
     "timing_contracts": "git@github.com:essential-projects/timing_contracts",
     "sequelize_connection_manager": "git@github.com:essential-projects/sequelize_connection_manager",
     "bootstrapper": "git@github.com:essential-projects/bootstrapper.git",
@@ -14,6 +15,7 @@
     "http": "git@github.com:essential-projects/http.git",
     "http_node": "git@github.com:essential-projects/http_node.git",
     "http_extension": "git@github.com:essential-projects/http_extension.git",
+    "scheduler_extension": "git@github.com:essential-projects/scheduler_extension",
     "event_aggregator": "git@github.com:essential-projects/event_aggregator.git",
     "timing": "git@github.com:essential-projects/timing"
   }
