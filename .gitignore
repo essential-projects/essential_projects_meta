@@ -1,21 +1,11 @@
 node_modules
-correlations.sqlite
-external_task.sqlite
-processengine.sqlite
-flow_node_instance.sqlite
-process_model.sqlite
-timer.sqlite
-sqlite_temp.json
 
 bootstrapper
 bootstrapper_contracts
 bootstrapper_browser
 bootstrapper_node
-bpmn-studio_client
-bpmn-io_custom-bundle
-bpmn-studio
-documentation
 errors_ts
+eslint-config
 event_aggregator
 event_aggregator_contracts
 http

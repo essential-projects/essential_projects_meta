@@ -1,5 +1,6 @@
 {
   "projects": {
+    "eslint-config": "git@github.com:essential-projects/eslint-config.git",
     "tslint-config": "git@github.com:essential-projects/tslint-config.git",
     "errors_ts": "git@github.com:essential-projects/errors_ts.git",
     "bootstrapper_contracts": "git@github.com:essential-projects/bootstrapper_contracts.git",
