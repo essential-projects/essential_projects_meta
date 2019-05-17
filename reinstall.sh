@@ -15,6 +15,29 @@ if [[ "$?" -ne "0" ]]; then
 fi
 
 # build all packages
-meta exec "npm run build" --exclude essential_projects_meta,iam_contracts,tslint-config
+meta exec "npm run build" --exclude essential_projects_meta,iam_contracts,eslint-config
+
+function install_and_build_package {
+  cd typescript
+  npm install --no-package-lock
+  cd ..
+
+  if [ -x "$(command -v dotnet)" ]; then
+    cd dotnet/src
+    dotnet restore && dotnet build
+    cd ../..
+  else
+    echo ""
+    echo "WARNING: skipping dotnet (since it is not installed)."
+    echo ""
+  fi
+}
+
+echo "-------------------------------------------------"
+echo "Installing IAM Contracts"
+echo "-------------------------------------------------"
+cd iam_contracts
+install_and_build_package
+cd ..
 
 echo "done"
